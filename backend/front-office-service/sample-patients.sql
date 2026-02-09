@@ -1,0 +1,9 @@
+-- Sample patients for testing prescription search
+INSERT INTO patients (patient_id, first_name, last_name, phone, email, date_of_birth, gender, address, emergency_contact, blood_group, allergies, medical_history, insurance_number, location_id, is_active) VALUES
+('P24010001', 'James', 'Wilson', '+91-9876543210', 'james.wilson@email.com', '1985-03-15', 'male', '123 Main Street, Mumbai, Maharashtra', '+91-9876543211', 'O+', 'Penicillin, Peanuts', 'Hypertension, Diabetes Type 2', 'INS001234', 1, true),
+('P24010002', 'Maria', 'Garcia', '+91-9876543212', 'maria.garcia@email.com', '1990-07-22', 'female', '456 Oak Avenue, Delhi, Delhi', '+91-9876543213', 'A+', 'Aspirin', 'Asthma', 'INS001235', 1, true),
+('P24010003', 'Jennifer', 'Brown', '+91-9876543214', 'jennifer.brown@email.com', '1978-11-08', 'female', '789 Pine Road, Bangalore, Karnataka', '+91-9876543215', 'B+', 'Shellfish', 'Migraine, Anxiety', 'INS001236', 1, true),
+('P24010004', 'Michael', 'Johnson', '+91-9876543216', 'michael.johnson@email.com', '1982-05-30', 'male', '321 Cedar Lane, Chennai, Tamil Nadu', '+91-9876543217', 'AB+', '', 'None', '', 1, true),
+('P24010005', 'Sarah', 'Thompson', '+91-9876543218', 'sarah.thompson@email.com', '1995-12-12', 'female', '654 Elm Street, Pune, Maharashtra', '+91-9876543219', 'O-', 'Latex', 'Chronic migraine', 'INS001237', 1, true),
+('P24020001', 'David', 'Lee', '+91-9876543220', 'david.lee@email.com', '1988-09-18', 'male', '987 Maple Drive, Hyderabad, Telangana', '+91-9876543221', 'A-', '', 'Hypertension', 'INS002001', 2, true),
+('P24020002', 'Lisa', 'Anderson', '+91-9876543222', 'lisa.anderson@email.com', '1992-04-25', 'female', '147 Birch Avenue, Kolkata, West Bengal', '+91-9876543223', 'B-', 'Sulfa drugs', 'Diabetes Type 1', 'INS002002', 2, true);
